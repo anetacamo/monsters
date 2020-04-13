@@ -8,7 +8,7 @@ const Card = ({ monster }) => {
       <h3>{monster.username}</h3>
       <img
         alt="monster"
-        src={`https://robohash.org/3${monster.id}?size=180x180`}
+        src={`https://robohash.org/${monster.id}?size=180x180`}
       />
     </div>
   );
